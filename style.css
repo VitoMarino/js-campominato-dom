@@ -55,6 +55,19 @@ button.button-play:hover {
     background-color: black;
 }
 
+#select-difficult {
+    background-color: black;
+    color: white;
+    margin-right: .5rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
 /*MAIN*/
 main {
     display: flex;
@@ -90,10 +103,33 @@ div.container > article {
     height: calc(100% / 10);
 }
 
+/* div.container > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+div.container > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+} */
+
 div.container > article.active {
-    background-color: rgba(255, 0, 0, 0.867);
+    background-color: blue;
     color: white;
 }
+
+/* div.container > article.active {
+    background-color: rgba(255, 0, 0, 0.867);
+    color: white;
+} */
 
 /*FOOTER*/
 footer {
